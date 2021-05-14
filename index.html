@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/27b35f0ace.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/indonesian-rupiah.svg">
+        <!--add  -->
+
+    <title>Portfolio  &nbsp;&nbsp;-&nbsp;&nbsp;Reynier Portugaliza</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous">
+            </script>
+    <script>
+        function SubForm() {
+            $.ajax({
+                url: "https://api.apispreadsheets.com/data/12278/",
+                type: "post",
+                data: $("#myForm").serializeArray(),
+                success: function () {
+                    alert("Your messages has been delivered")
+                },
+                error: function () {
+                    alert("Fill up the text field")
+                }
+            });
+        }
+    </script>
+</head>
+<body   >
+    <div class="progress"></div>
+    <header> 
+        <nav>
+        <div class="logo">
+            <h1 class="logo-res1">Reynier Portugaliza</h1>
+            <h1 class="logo-res2">RP<span>.</span></h1>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link"><a href="#Home">Home</a></li>
+            <li class="nav-link"><a href="#About">About</a></li>
+            <li class="nav-link"><a href="#Work">Work</a></li>
+            <li class="nav-link"><a href="#Contacts">Contacts</a></li>
+        </ul>
+        
+        <div class="menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </nav>
+    </header>
+<div class="content">
+    <section class="section1" id="Home">
+        <main>
+            <article>
+                <h2 class="section-index wow fadeInUp">Student<span>.</span></h2>
+                <h2>Self Taught<span>.</span></h2>
+                <h2>Front-End Web Developer<span>.</span></h2>
+                
+            </article>
+        </main>
+    </section>
+
+    <section class="section2" id="About">
+        <main>
+            <article >
+                <h3>About</h3>
+                <p>Hi! I am Reynier John M. Portugaliza and Currently 1st Year College in Cavite State University, Bachelor of Science in Information Technology. I am 20 years old, I am tech savvy so that everything of my projects make it easier and faster. My hobby is to make different projects and to learn new skills that will help me to be a full-stack developer. I have experienced in making websites and being a Virtual Assistant. I have skills in research design, online research, record data and data entry inputs, calculate a company or department’s budget and profit, making schedules appoinment ,using microsoft apps/programs, multi-tasking, web development, troubleshoot website problems, and etc.</p>
+            </article>
+        </main>
+            <section class="section2-1" id="Skills">
+            <main>
+                <article>
+                    <h3>My Skills</h3>
+                    <div class="PL">
+                        <div class="PL-items1">
+                            <img src="images/html.svg" alt="">
+                            <img src="images/css-3.svg" alt="">
+                            <img src="images/javascript.svg" alt="">
+                            <img src="images/bootstrap-4.svg" alt="">
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="PL-items2">
+                            <img src="images/php.svg" alt="">
+                            <img src="images/wordpress.svg" alt="">
+                            <img src="images/sass.svg" alt="">
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </section>
+    </section>
+    
+    
+    
+
+    <section class="section3" id="Work">
+        <main>
+            <article>
+                <h3>Work</h3>
+                <div class="works">
+                    <div class="col1">
+                        <div class="item">  
+                            <a href="https://42galiza17.github.io/Project1/" target="_blank" ><img src="images/project1.png" alt="Website-1"/></a><br>
+                            <h3>Apex News</h3>
+                        </div>
+                        <div class="item">
+                            <a href="https://42galiza17.github.io/Project2/" target="_blank"><img src="images/project2.png" alt="Website-2" /></a><br>
+                            <h3>Travels</h3>
+                        </div>
+                        <div class="item">
+                            <a href="https://42galiza17.github.io/Project3/" target="_blank"><img src="images/project3.png" alt="Website-3" /></a><br>
+                            <h3>TriStar News</h3>
+                        </div>
+                        <div class="item">
+                            <a href="https://42galiza17.github.io/Project4/" target="_blank"><img src="images/project4.png" alt="Website-4" /></a><br>
+                            <h3>Quantum Leap</h3>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div class="item">
+                            <a href="https://42galiza17.github.io/Project5/" target="_blank"><img src="images/project5.png" alt="Website-4" /></a><br>
+                            <h3>Pet Registration</h3>
+                        </div>
+                        <div class="item">
+                            <a href="https://42galiza17.github.io/Project6/" target="_blank"><img src="images/project6.png" alt="Website-4" /></a><br>
+                            <h3>Carpe Diem</h3>
+                        </div>
+                        <div class="item">
+                            <a href="https://42galiza17.github.io/Project7/" target="_blank"><img src="images/project7.png" alt="Website-4" /></a><br>
+                            <h3>Minky</h3>
+                        </div>
+                        <div class="item">
+                            <a href="https://42galiza17.github.io/Project8/" target="_blank"><img src="images/project8.png" alt="Website-4" /></a><br>
+                            <h3>Energy Save</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+            </article>
+        </main>
+    </section>
+    <div class="text">
+        <h3>Like what you see? <a href="mailto:portugalizareynier@gmail.com" target="_blank">Get in touch</a></h3>
+    </div>
+    <section class="section4" id="Contacts">
+        <main>
+            <article>
+                <h3>Contacts</h3>
+                <p>You can contact me in social media platform or you can send me an message in the form below.</p><br><br><br>
+                <form action="" id="myForm">
+                    <input type="text" placeholder="Name" name="Name"><br>
+                    <input type="email" placeholder="Email" name="Email"><br>
+                    <textarea name="Messages" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea><br>
+                </form>
+                <button class="btn" onclick='SubForm()'>send</button>
+                <br><br><br><br>
+                <div class="icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/42galiza17" target="_blank"><i class="fab fa-facebook-f" ></i></a></li>
+                        <li><a href="https://twitter.com/42galiza" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCtaI-C3wFjLCiSybGVtwVJQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/reynier-portugaliza-54b78814a/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/42galiza17" target="_blank"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+    </section>
+
+    <footer>
+        <h5>© Portfolio. All rights reserved. |
+            <a href="https://www.facebook.com/42galiza17" target="_blank"> @42galiza</a></h5>
+    </footer>
+</div>
+
+<script src="apps.js"></script>
+</body>
+</html>
